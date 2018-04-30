@@ -49,6 +49,7 @@ nav ul li a {
 
 }
 
+
 /*@media tablette*/
 @media only screen and (max-width: 800px) {
 	body {
@@ -514,8 +515,9 @@ nav ul {
 /*footer*/
 
 footer {
-	background-color: #cc0000;
-	height: 300px;
+	background-color: #b30000;
+	height: 330px;
+
 
 }
 
@@ -529,11 +531,20 @@ label {
 	margin-right: 10px;
 }
 #formu {
+	text-align: center;
 	position: relative;
-	left: 3%;
+
 }
 input {
-	padding: 6px 6px 6px 6px;
+	padding: 6px 20px 6px 6px;
 	margin-bottom: 7px;
+}
+.error {
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+.matetrach {
+	display: none;
 }
 
